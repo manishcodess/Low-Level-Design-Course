@@ -18,7 +18,7 @@ encapsulating it together.
 security to the class members.
 */
 class SportsCar {
-private:
+private: //  in encapsulation i want no on is organisation change states wrongly    it is not used to save from hacker rather for unintentional mistakes
     string brand;
     string model;
     bool isEngineOn;
